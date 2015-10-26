@@ -18,5 +18,7 @@ public class VariablesInJava {
         System.out.printf("%s%s, %d%n", "Network adapters: ", networkAdapterTypes, numberOfNetworkAdapters);
         System.out.printf("%s%s, %d%n", "Keyboards: ", keyboardType, numberOfKeyboards);
 
+        byte t1 = -128;
+        System.out.println(--t1); //Equal to 127
     }
 }
